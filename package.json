@@ -1,6 +1,6 @@
 {
   "name": "cp-data",
-  "version": "1.1.0",
+  "version": "1.1.1-pre",
   "description": "cp-data is a JavaScript library for some common data structures",
   "main": "index.js",
   "keywords": [
