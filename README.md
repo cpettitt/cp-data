@@ -1,25 +1,26 @@
-# cp-set
+# cp-data
 
-cp-set is a JavaScript library for a simple Set data structure.
+cp-data is a JavaScript library for some common data structures. Currently this
+includes a fast Set implementation and a PriorityQueue.
 
-[![Build Status](https://secure.travis-ci.org/cpettitt/cp-set.png)](http://travis-ci.org/cpettitt/cp-set)
+[![Build Status](https://secure.travis-ci.org/cpettitt/cp-data.png)](http://travis-ci.org/cpettitt/cp-data)
 
-# Getting cp-set
+# Getting cp-data
 
 ## NPM Install
 
 Before installing this library you need to install the [npm package manager].
 
-To get cp-set from npm, use:
+To get cp-data from npm, use:
 
-    $ npm install cp-set
+    $ npm install cp-data
 
 ## Browser Scripts
 
 You can get the latest browser-ready scripts:
 
-* [cp-set.js](http://cpettitt.github.io/project/cp-set/latest/cp-set.js)
-* [cp-set.min.js](http://cpettitt.github.io/project/cp-set/latest/cp-set.min.js)
+* [cp-data.js](http://cpettitt.github.io/project/cp-data/latest/cp-data.js)
+* [cp-data.min.js](http://cpettitt.github.io/project/cp-data/latest/cp-data.min.js)
 
 ## Build From Source
 
@@ -29,13 +30,13 @@ Check out this project and run this command from the root of the project:
 
     $ make
 
-This will generate `cp-set.js` and `cp-set.min.js` in the `out/dist` directory
+This will generate `cp-data.js` and `cp-data.min.js` in the `out/dist` directory
 of the project.
 
-# Example
+# Set Example
 
 ```js
-var Set = require('cp-set').Set;
+var Set = require('cp-data').Set;
 
 var s1 = new Set();
 
@@ -95,7 +96,7 @@ new Set(['1']).keys();
 
 # License
 
-cp-set is licensed under the terms of the MIT License. See the LICENSE file
+cp-data is licensed under the terms of the MIT License. See the LICENSE file
 for details.
 
 [npm package manager]: http://npmjs.org/

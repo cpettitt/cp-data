@@ -1,10 +1,11 @@
 {
-  "name": "cp-set",
+  "name": "cp-data",
   "version": "1.0.1-pre",
-  "description": "A Set data structure implementation",
+  "description": "cp-data is a JavaScript library for some common data structures",
   "main": "index.js",
   "keywords": [
     "set",
+    "priority queue",
     "data structure"
   ],
   "scripts": {
@@ -35,7 +36,7 @@
   "author": "Chris Pettitt <chris@samsarin.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cpettitt/graphlib.git"
+    "url": "https://github.com/cpettitt/cp-data.git"
   },
   "license": "MIT"
 }
