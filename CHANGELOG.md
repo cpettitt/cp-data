@@ -1,3 +1,8 @@
+v1.1.1
+======
+
+* Minor performance tweaks
+
 v1.1.0
 ======
 

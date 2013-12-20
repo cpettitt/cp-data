@@ -1,6 +1,6 @@
 {
   "name": "cp-data",
-  "version": "1.1.1-pre",
+  "version": "1.1.1",
   "description": "cp-data is a JavaScript library for some common data structures",
   "main": "index.js",
   "keywords": [
@@ -20,7 +20,7 @@
   "devDependencies": {
     "benchmark": "~1.0.0",
     "blanket": "1.x.x",
-    "browserify": "~2.33.1",
+    "browserify": "~2.35.1",
     "chai": "1.7.x",
     "grunt": "~0.4.1",
     "grunt-browserify": "~1.2.8",
@@ -40,3 +40,4 @@
   },
   "license": "MIT"
 }
+
