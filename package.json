@@ -8,7 +8,7 @@
     "priority queue",
     "data structure"
   ],
-  "scripts": {
+  "config": {
     "blanket": {
       "pattern": "lib",
       "data-cover-never": [
