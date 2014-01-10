@@ -3,7 +3,7 @@ v1.1.2
 
 * No longer use the 'keys' property to determine if an object is a Set.
   Recently both Chrome and Firefox have added 'keys' to Array objects.
-  See [https://github.com/cpettitt/cp-data/issues/1]().
+  See [Issue #1](https://github.com/cpettitt/cp-data/issues/1]).
 
 v1.1.1
 ======
