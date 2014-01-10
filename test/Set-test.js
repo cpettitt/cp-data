@@ -1,5 +1,7 @@
 var assert = require('chai').assert,
+    /* jshint -W079 */
     Set = require('..').Set;
+    /* jshint +W079 */
 
 describe('data.Set', function() {
   var set;
