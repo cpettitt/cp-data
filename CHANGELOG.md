@@ -1,3 +1,9 @@
+v1.1.3
+======
+
+* Use polyfills for Array.isArray and Array.prototype.reduce, which should help
+  make this library more friendly to older browsers.
+
 v1.1.2
 ======
 
